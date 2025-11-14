@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Normalize Text</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=display-width scale=1.0">
+
+    </head>
+    <body>
+        <script>
+           var $filename="content.txt";
+           var mode;
+           var $file=JSON.getfile($filename);
+            function normalizeText($fileName,$mode){
+                if($file.consists=" "){
+                    remove.duplicate($filename);
+                    document.write("The file after remove spaces and tabs",$file);
+
+                }
+                const file_rgex=/^[" "+.*[A-Z]+" "]$/;
+                if($file=file_regex){
+                    remove.duplicate($file);
+                    document.write("The file after remove trail spaces",$file);
+                
+                }
+                if(mode="compress"){
+                    if($file="    "){
+                        remove.duplicate($file);
+                         document.write("The file after compress ",$file);
+                    }
+                }
+                }
+                if(mode="expand"){
+                    if($file="    "){
+                        insert.Line();
+                         document.write("The file after inserting ",$file);
+                    }
+                }
+
+               normalizeText();
+               document.write($filename);
+
+        
+        </script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <Title>Calculate Bill</Title>
+        <meta charset="UTF-8">
+        <meta name="view-port" content="width=display-width scale=1.0">
+    </head>
+    <body>
+        <h1>Calculating Water charges to Each Household</h1>
+    <label for="water">Enter water:</label><br>
+    <input type="number" id="water" name="water" placeholder="Enter water in KL" required><br><br>
+    <script>
+        var litre=water;
+        function calculateBill(let$liter,var$water){
+            if(liter<=15){
+                var billing=2*water;
+                
+                document.write("The billing charged is",$billing);
+            }
+            if(liter=20){
+                var billing=5*water;
+                document.write("The billing for 20KL is",$billing);
+            
+            }
+            if(liter>35){
+                var billing=10*water;
+                document.write("The billing for above 35KL is",$billing);
+
+            }
+            var servicecharge=50;
+            document.write("Every customer charged  service charge",$serviceCharge);
+
+
+        }
+        calculateBill(liter,water);
+        alert("The bill calculate to each household and cahrged service charge");
+
+    </script>
+    </body>
+</html>
